@@ -113,3 +113,55 @@ $nama = 'Fiki';
 echo "Nama : ";
 echo $nama;
 ```
+
+## Constant
+- adalah tempat untuk menyimpan data yang tidak bisa dirubah lagi setelah di deklarasikan
+- untuk membuat constant kita bisa menggunakan function define()
+- Best practice pembuatan nama constant adalah menggunakan UPPER_CASE (huruf kapital)
+
+contoh :
+```php
+<?php
+define("AUTHOR", "Fiki Dedi Andika");
+define("APP_VERSION", 100);
+
+echo AUTHOR;
+echo "\n";
+echo APP_VERSION;
+```
+
+
+### Data NULL
+- Nilai NULL merepresentasikan sebuah variable tanpa nilai
+- Saat kita membuat variable lalu ingin menghapus data yang terdapat di variable tersebut kita bisa menggunakan NULL untuk mengosongkan variable tersebut
+- Untuk membuat data NULL kita bisa menggunakan kata kunci NULL (case insensitive)
+
+contoh :
+```php
+<?php
+$nama = "Fiki";
+$nama = null;
+
+echo "Nama : ";
+echo $nama;
+```
+
+#### Mengecek Apakah Data NULL
+- kadang kita ingin tahu apakah sebuah data bernilai null atau tidak
+- untuk mengecek apakah sebuah data bernilai null, kita bisa menggunakan function is_null($variable)
+
+contoh :
+```php
+<?php
+	$nama = "Fiki Dedi Andika";
+	$umur = null; //ini data null
+	
+	
+	$cek_data_nama = is_null($nama);
+	
+	echo "Cek data nama : ? ";
+	var_dump($cek_data_nama);
+	
+	echo "Cek data umur : ? ";
+	var_dump(is_null($umur));
+```
