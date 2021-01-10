@@ -40,7 +40,7 @@ Setelah install php kita perlu atur PATH, inti dari setting PATH ini adalah agar
 Contoh kode php untuk menampilkan tulisan hello world 
 ```php
 <?php
-  echo "Hello World";
+	echo "Hello World";
 ```
 
 ### Tipe Data Number
@@ -80,11 +80,11 @@ Di PHP kita bisa menambahkan _ (garis bawah) di angka, ini hanya untuk agar muda
 contoh :
 ```php
 <?php
-echo <<<DESEMBER
-Ini adalah contoh string yang panjang
-kita tidak perlu ngetik ENTER secara manual
-bisa juga pake "quote"
-DESEMBER;
+	echo <<<DESEMBER
+	Ini adalah contoh string yang panjang
+	kita tidak perlu ngetik ENTER secara manual
+	bisa juga pake "quote"
+	DESEMBER;
 ```
 
 #### Nowdoc
@@ -92,11 +92,11 @@ DESEMBER;
 contoh :
 ```php
 <?php
-echo <<<'DESEMBER'
-Ini adalah contoh string yang panjang
-kita tidak perlu ngetik ENTER secara manual
-bisa juga pake "quote"
-DESEMBER;
+	echo <<<'DESEMBER'
+	Ini adalah contoh string yang panjang
+	kita tidak perlu ngetik ENTER secara manual
+	bisa juga pake "quote"
+	DESEMBER;
 ```
 
 ## Variable
@@ -109,9 +109,9 @@ DESEMBER;
 contoh :
 ```php
 <?php
-$nama = 'Fiki';
-echo "Nama : ";
-echo $nama;
+	$nama = 'Fiki';
+	echo "Nama : ";
+	echo $nama;
 ```
 
 ## Constant
@@ -122,12 +122,12 @@ echo $nama;
 contoh :
 ```php
 <?php
-define("AUTHOR", "Fiki Dedi Andika");
-define("APP_VERSION", 100);
+	define("AUTHOR", "Fiki Dedi Andika");
+	define("APP_VERSION", 100);
 
-echo AUTHOR;
-echo "\n";
-echo APP_VERSION;
+	echo AUTHOR;
+	echo "\n";
+	echo APP_VERSION;
 ```
 
 
@@ -139,11 +139,11 @@ echo APP_VERSION;
 contoh :
 ```php
 <?php
-$nama = "Fiki";
-$nama = null;
+	$nama = "Fiki";
+	$nama = null;
 
-echo "Nama : ";
-echo $nama;
+	echo "Nama : ";
+	echo $nama;
 ```
 
 #### Mengecek Apakah Data NULL
