@@ -98,3 +98,18 @@ kita tidak perlu ngetik ENTER secara manual
 bisa juga pake "quote"
 DESEMBER;
 ```
+
+## Variable
+- adalah tempat untuk menyimpan data sehingga bisa kita gunakan lagi di kode program selanjutnya
+- di PHP variable bisa menampung berbagai jenis tipe data dan bisa berubah-ubah tipe data
+- untuk membuat variable kita bisa menggunakan tanda $ (dolar) diikuti dengan nama variablenya
+- variable tidak boleh mengandung spasi
+- variable tidak boleh diawali angka
+
+contoh :
+```php
+<?php
+$nama = 'Fiki';
+echo "Nama : ";
+echo $nama;
+```
