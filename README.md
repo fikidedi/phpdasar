@@ -31,3 +31,8 @@ Setelah install php kita perlu atur PATH, inti dari setting PATH ini adalah agar
 - Atom 
 - PHPStorm 
 
+### File PHP
+- File kode program PHP diakhiri dengan extension .php
+- Diawal kode program PHP, wajid menambahkan <?php dan diakhir kode program perlu ditambahkan ?> (tapi tidak wajib). Tidak wajib jika dikode tersebut hanya ada kode php aja tapi kalo kodenya campur sama html maka ?> wajib ditulis.
+- Nama file PHP tidak ada aturan, jadi kita bisa membuat file PHP sesuka hati, namun agar mempermudah saat menjalakan file PHP direkomendasikan tidak menggunakan sapasi. Contoh nama file php yang baik : index.php, about.php, latihan1.php
+- Untuk menampilkan tulisan di PHP kita bisa menggunakan perintah echo
