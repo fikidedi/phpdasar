@@ -79,6 +79,7 @@ Di PHP kita bisa menambahkan _ (garis bawah) di angka, ini hanya untuk agar muda
 
 contoh :
 ```php
+<?php
 echo <<<DESEMBER
 Ini adalah contoh string yang panjang
 kita tidak perlu ngetik ENTER secara manual
@@ -90,6 +91,7 @@ DESEMBER;
 
 contoh :
 ```php
+<?php
 echo <<<'DESEMBER'
 Ini adalah contoh string yang panjang
 kita tidak perlu ngetik ENTER secara manual
