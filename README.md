@@ -37,8 +37,16 @@ Setelah install php kita perlu atur PATH, inti dari setting PATH ini adalah agar
 - Penamaan file di PHP tidak ada aturan, jadi kita bisa membuat nama file PHP sesuka hati, namun agar mempermudah saat menjalakan file PHP direkomendasikan tidak menggunakan spasi. Contoh nama file php yang baik : index.php, about.php, latihan1.php
 - Untuk menampilkan tulisan di PHP kita bisa menggunakan perintah echo
 
-
+Contoh kode php untuk menampilkan tulisan hello world 
 ```php
 <?php
   echo "Hello World";
 ```
+
+### Tipe Data Number
+
+Di PHP ada 2 jenis tipe data number
+- int : Bilangan bulat desimal
+- float : Bilangan bulat pecahan
+Di PHP kita bisa menambahkan _ (garis bawah) di angka, ini hanya untuk agar mudah dibaca. Saat dijalankan garis bawah ini akan di abaikan (ignore). contoh : 1_000_000
+
