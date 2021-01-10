@@ -206,6 +206,7 @@ contoh :
 ```
 
 #### Operasi Array
+
 | Syntax | Description |
 | ----------- | ----------- |
 | $array[index] | Mengakses data di array pada nomer index |
@@ -213,3 +214,10 @@ contoh :
 | $array[] = value | Menambah data di array pada posisi paling belakang |
 | unset($array[index]) | Menghapus data di arra, index otomatis hilang dari array |
 | count($array) | Mengambil total data di array |
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
