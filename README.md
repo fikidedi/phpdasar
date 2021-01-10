@@ -38,7 +38,7 @@ Setelah install php kita perlu atur PATH, inti dari setting PATH ini adalah agar
 - Untuk menampilkan tulisan di PHP kita bisa menggunakan perintah echo
 
 
-`code`php
+```php
 <?php
   echo "Hello World";
-`code`
+```
