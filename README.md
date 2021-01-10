@@ -165,3 +165,24 @@ contoh :
 	echo "Cek data umur : ? ";
 	var_dump(is_null($umur));
 ```
+
+#### Menghapus Variable
+- selain mengubah menjadi null, di php juga kita bisa menghapus sebuah variable caranya dengan menggunakan function unset($variable)
+- namun hati-hati ketika kita hapus variable kita tidak bisa lagi mengakses variable tersebut bahkan function is_null($variable) pun akan menjadi error jika mengakses variable tersebut.
+- agar lebih aman kita bisa menggunakan function isset($variable) untuk mengecek apakah sebuah variable ada dan nilainya tidak null
+
+contoh :
+```php
+<?php
+	//penerapan unset
+	$nama = "Fiki Dedi";
+	unset($nama);
+	
+	echo $nama; //outputnya undefined variable
+	
+	//penerapan isset
+	$contoh1 = 1;
+	
+	var_dump(isset($contoh1)); //outputnya bool(true)
+	var_dump(isset($contoh2)); //outputnya bool(false)
+```
