@@ -186,3 +186,30 @@ contoh :
 	var_dump(isset($contoh1)); //outputnya bool(true)
 	var_dump(isset($contoh2)); //outputnya bool(false)
 ```
+
+
+### Tipe Data Array
+- Array adalah tipe data yang berisikan kosong atau banyak data
+- Array di PHP bisa berisikan data dengan jenis berbeda-beda
+- Array di PHP memiliki panjang dinamis artinya kita bisa menambah data ke array sebanyak-banyaknya
+
+contoh :
+```php
+<?php
+	//cara 1 penerapan array
+	$nilai_ujian = array(80,70,90,75);
+	var_dump($nilai_ujian);
+	
+	//cara 2 penerapan array
+	$nama = ["Fiki","Arman","Beni"];
+	var_dump($nama);
+```
+
+#### Operasi Array
+| Syntax | Description |
+| ----------- | ----------- |
+| $array[index] | Mengakses data di array pada nomer index |
+| $array[index] = value | Mengubah data di array pada nomer index dnegan value baru |
+| $array[] = value | Menambah data di array pada posisi paling belakang |
+| unset($array[index]) | Menghapus data di arra, index otomatis hilang dari array |
+| count($array) | Mengambil total data di array |
