@@ -50,3 +50,49 @@ Di PHP ada 2 jenis tipe data number
 - float : Bilangan bulat pecahan
 Di PHP kita bisa menambahkan _ (garis bawah) di angka, ini hanya untuk agar mudah dibaca. Saat dijalankan garis bawah ini akan di abaikan (ignore). contoh : 1_000_000
 
+
+#### Integer Overflow
+- Batasan atau kapasistas di php sistem operasi 32 bit yaitu 2147483647
+- Batasan atau kapasistas di php sistem operasi 64 bit yaitu 9223372036854775807
+- Jika nilai integer melebihi kapasitas diatas maka secara otomatis tipe number akan berubah menjadi floating point
+
+### Tipe Data Boolean
+- Tipe data boolean adalah tipe data paling sederhana di PHP
+- Tipe data boolean adalah tipe data dengan nilai kebenaran (benar atau salah)
+- Nilai benar adalah true dan nilai salah adalah false
+
+### Tipe Data String
+- Tipe data string adalah tipe data representasi dari teks
+- String bisa mengandung kosong atau banyak karakter
+- Untuk membuat string bisa menggunakan single quote ' contoh : 'Nama : '
+- Untuk membuat string kita juga bisa menggunakan double quote "
+  - Kelebihan menggunakan double quote adalah kita bisa menggunakan escape sequence
+  - Contoh : echo "Fiki\t Dedi\t Andika\n";
+  - \t untuk Tab
+  - \n Untuk Enter
+
+### Multiline String
+- Kadang kita ingin membuat data string lebih dari satu baris. Untuk melakukan itu sebenarnya kita bisa menggunakan \n sebagai ENTER
+- Namun PHP punya fitur yaitu Heredoc dan Nowdoc untuk menghandle-nya.
+
+#### Heredoc
+
+contoh :
+```php
+echo <<<DESEMBER
+Ini adalah contoh string yang panjang
+kita tidak perlu ngetik ENTER secara manual
+bisa juga pake "quote"
+DESEMBER;
+```
+
+#### Nowdoc
+
+contoh :
+```php
+echo <<<'DESEMBER'
+Ini adalah contoh string yang panjang
+kita tidak perlu ngetik ENTER secara manual
+bisa juga pake "quote"
+DESEMBER;
+```
